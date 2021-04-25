@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E6B19777262FC1B100E3F5EA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E6B19776262FC1B100E3F5EA /* main.c */; };
+		E6B19780262FC1C600E3F5EA /* hw0304.c in Sources */ = {isa = PBXBuildFile; fileRef = E6B1977F262FC1C600E3F5EA /* hw0304.c */; };
+		E6B19784262FC1E400E3F5EA /* bmp_alpha.c in Sources */ = {isa = PBXBuildFile; fileRef = E6B19783262FC1E400E3F5EA /* bmp_alpha.c */; };
+		E6B197A526331DFD00E3F5EA /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = E6B197A426331DFD00E3F5EA /* Makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,10 @@
 
 /* Begin PBXFileReference section */
 		E6B19773262FC1B100E3F5EA /* hw0304 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hw0304; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6B19776262FC1B100E3F5EA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		E6B1977F262FC1C600E3F5EA /* hw0304.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hw0304.c; sourceTree = "<group>"; };
+		E6B19782262FC1E400E3F5EA /* bmp_alpha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bmp_alpha.h; sourceTree = "<group>"; };
+		E6B19783262FC1E400E3F5EA /* bmp_alpha.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bmp_alpha.c; sourceTree = "<group>"; };
+		E6B197A426331DFD00E3F5EA /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +62,10 @@
 		E6B19775262FC1B100E3F5EA /* hw0304 */ = {
 			isa = PBXGroup;
 			children = (
-				E6B19776262FC1B100E3F5EA /* main.c */,
+				E6B1977F262FC1C600E3F5EA /* hw0304.c */,
+				E6B19782262FC1E400E3F5EA /* bmp_alpha.h */,
+				E6B19783262FC1E400E3F5EA /* bmp_alpha.c */,
+				E6B197A426331DFD00E3F5EA /* Makefile */,
 			);
 			path = hw0304;
 			sourceTree = "<group>";
@@ -118,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6B19777262FC1B100E3F5EA /* main.c in Sources */,
+				E6B197A526331DFD00E3F5EA /* Makefile in Sources */,
+				E6B19784262FC1E400E3F5EA /* bmp_alpha.c in Sources */,
+				E6B19780262FC1C600E3F5EA /* hw0304.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
